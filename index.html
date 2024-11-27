@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our pet store offering a wide variety of pets, supplies, and services.">
+    <title>Pet Store App</title>
+    <style>
+        nav ul {
+            list-style-type: none; 
+            padding: 0; 
+            margin: 0; 
+            display: flex; 
+            justify-content: center; 
+        }
+
+        nav ul li {
+            margin: 0 15px; 
+        }
+
+        nav ul li a {
+            text-decoration: none; 
+            color: #007BFF; 
+            font-weight: bold; 
+        }
+
+        nav ul li a:hover {
+            color: #0056b3; 
+        }
+    </style>
+</head>
+
+<body>
+    
+    <header>
+        <h1>Welcome to Our Pet Store</h1>
+        <p>Your one-stop destination for pets, supplies, and services!</p>
+    </header>
+
+   
+    <nav>
+        
+        <ul>
+            
+
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#pets">Available Pets</a></li>
+            <li><a href="#supplies">Pet Supplies</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+            
+    </nav>
+
+  
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We provide a variety of pets, high-quality pet supplies, and top-notch services such as grooming and veterinary care.</p>
+        <img src="Images/pet store logo.png" alt="Pet Store Logo" title="Our Pet Store Logo" width="300">
+    </section>
+
+    
+    <section id="pets">
+        <h2>Available Pets</h2>
+        <p>We offer a wide selection of pets to bring joy to your home.</p>
+        <ul>
+            <li>Dogs</li>
+            <li>Cats</li>
+            <li>Birds</li>
+            <li>Rabbits</li>
+        </ul>
+        <img src="Images/cute dog.jpeg" alt="Cute Dog" title="Our Available Pets" width="300">
+    </section>
+
+   
+    <section id="supplies">
+        <h2>Pet Supplies</h2>
+        <p>Everything your pet needs, from food to toys, is available at our store.</p>
+        <ol>
+            <li>Food and Treats</li>
+            <li>Toys</li>
+            <li>Leashes and Collars</li>
+            <li>Bedding and Housing</li>
+        </ol>
+    </section>
+
+  
+    <section>
+        <h2>Our Services</h2>
+        <table border="1">
+            <tr>
+                <th>Service</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Grooming</td>
+                <td>Professional pet grooming services</td>
+                <td>Ksh 3500</td>
+            </tr>
+            <tr>
+                <td>Training</td>
+                <td>Basic obedience training for pets</td>
+                <td>Ksh 5000</td>
+            </tr>
+            <tr>
+                <td>Veterinary Care</td>
+                <td>Routine checkups and medical services</td>
+                <td>Varies</td>
+            </tr>
+        </table>
+    </section>
+
+  
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+  
+    <section>
+        <h2>Find Us</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d510593.2233778862!2d37.013276!3d-1.153663!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f38a78cb4e50d%3A0xdaa7fad9c2cbf0fb!2sRuiru!5e0!3m2!1sen!2ske!4v1732686815080!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </section>
+
+    
+    <footer>
+        <p>&copy; 2024 Our Pet Store. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
